@@ -1,0 +1,12 @@
+{
+  "name": "css-library",
+  "version": "1.0.0",
+  "description": "A shareable and reusable css library.",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["css library", "css modules"],
+  "author": "Thorsten Kober",
+  "license": "ISC"
+}
