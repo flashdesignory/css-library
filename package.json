@@ -4,9 +4,18 @@
   "description": "A shareable and reusable css library.",
   "main": "index.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "http-server ./ -p 7005 -c-1 --cors -o",
+    "lint": "stylelint \"src/css/*.css\""
   },
-  "keywords": ["css library", "css modules"],
+  "keywords": [
+    "css library",
+    "css modules"
+  ],
   "author": "Thorsten Kober",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "stylelint": "^15.7.0",
+    "stylelint-config-standard": "^33.0.0"
+  }
 }
