@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "http-server ./ -p 7005 -c-1 --cors -o",
     "lint": "stylelint \"src/css/*.css\"",
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "release:major": "npm run build && npm version $(semver $npm_package_version -i major) && npm publish --tag latest && git push",
+    "release:minor": "npm run build && npm version $(semver $npm_package_version -i minor) && npm publish --tag latest && git push",
+    "release:patch": "npm run build && npm version $(semver $npm_package_version -i patch) && npm publish --tag latest && git push"
   },
   "keywords": [
     "css library",
@@ -20,7 +23,11 @@
     "rollup-plugin-cleaner": "^1.0.0",
     "rollup-plugin-copy-merge": "^1.0.2",
     "rollup-plugin-import-css": "^3.2.1",
+    "semver": "^7.5.1",
     "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0"
-  }
+  },
+  "files": [
+    "/dist"
+  ]
 }
