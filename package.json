@@ -17,6 +17,8 @@
   "devDependencies": {
     "http-server": "^14.1.1",
     "rollup": "^3.25.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-copy-merge": "^1.0.2",
     "rollup-plugin-import-css": "^3.2.1",
     "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0"
