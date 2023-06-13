@@ -1,4 +1,4 @@
-# 01 - SETUP PROJECT
+# 01 - Setup Project
 
 ## Step one - create a folder
 
