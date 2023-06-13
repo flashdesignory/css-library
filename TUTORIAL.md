@@ -19,3 +19,11 @@ Each step of the tutorial is associated wit a branch, that includes the final fi
 - [06-npm](https://github.com/flashdesignory/css-library/tree/06-npm)
 - [main](https://github.com/flashdesignory/css-library/tree/main)
 
+## How to use
+
+Start by checking out the branch associated with your current step
+Navigate to the tutorials folder and follow the current readme file.
+
+For example, to start the tutorial:
+1. checkout branch `01-setup`
+2. navigate to `tutorial/01_SETUP_PROJECT.md`
