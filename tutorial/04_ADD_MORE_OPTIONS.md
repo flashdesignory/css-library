@@ -1,4 +1,4 @@
-# Add More Options
+# 04 - Add More Options
 
 So far, we are able to build a single minified css file, which is nice, but doesn't give us flexibility yet. 
 Ideally, we want to support several use-cases. Let's see how we can make it better!
