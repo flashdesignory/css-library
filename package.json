@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "http-server ./ -p 7005 -c-1 --cors -o",
-    "lint": "stylelint \"src/css/*.css\""
+    "lint": "stylelint \"src/css/*.css\"",
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [
     "css library",
@@ -15,6 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.1",
+    "rollup": "^3.25.1",
+    "rollup-plugin-import-css": "^3.2.1",
     "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0"
   }
