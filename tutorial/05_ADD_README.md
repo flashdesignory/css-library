@@ -49,3 +49,5 @@ export default function Footer() {
 }
 ```
 ````
+
+> **_NEXT:_**  [06 PUBLISH TO NPM](./06_PUBLISH_NPM.md)

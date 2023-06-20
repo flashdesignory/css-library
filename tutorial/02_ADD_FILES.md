@@ -101,3 +101,5 @@ npm run lint
 
 If all goes well and we didn't make any changes to our css files, this should be pretty uneventfull.
 No warnings or errors in the console means that the linting passed and we can move on to the next step.
+
+> **_NEXT:_**  [03 ADD ROLLUP](./03_ADD_ROLLUP.md)
